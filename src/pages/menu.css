@@ -1,0 +1,30 @@
+.menu1{
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    margin-top: 50px;
+    
+
+    
+    
+}
+.title1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.menulist1{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    background-color: bisque;
+    margin: 10px;
+    
+   
+}
+.hero1{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+
+}

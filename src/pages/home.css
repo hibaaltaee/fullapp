@@ -1,0 +1,144 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.containerr{
+    display: flex;
+    justify-content: space-around;
+    background-color: #495E57;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    
+}
+
+
+.photo img{
+    width: 170px;
+    height: 170px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.section{
+    display: inline;
+    color: white;
+
+    
+}
+
+.section button{
+    background-color: #f1cd1a;
+    border-radius: 10px;
+   border-style: none;
+   margin-bottom: 10px;
+    
+}
+.hero1{
+    
+    justify-content:center;
+    align-items: center;
+    display: inline;
+    margin-top: 20px;
+}
+
+.hero1 .button{
+    background-color: #f1cd1a;
+    border-radius: 5px;
+    border-style: none;
+    margin: 5px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    
+
+}
+.card1{
+    width:fit-content;
+    height:fit-content;
+    align-items: center;
+    margin: 10px;
+    padding: 3px;
+    background-color: rgb(240, 248, 248);
+    border-radius: 5px;
+    
+}
+.sp{
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 30px;
+}
+
+.card1 img{
+
+    width: 200px;
+    height: 100px;
+}
+.card1 button,.sp button {
+    background-color: #f1cd1a;
+    border-radius: 5px;
+    border-style: none;
+    margin: 5px;
+}
+
+
+
+.testlemone{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
+.box1{
+    display:block;
+    margin: 10px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: #f1ebf0;
+    padding: 10px;
+}
+.box1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+section{
+    text-align: center;
+    margin-top: 80px;
+}
+.fontawsome{
+    color: #f1cd1a;
+}
+
+
+@media (max-width:700px) {
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerr{
+        flex-direction: column;
+        align-items: center;
+    }
+    .testlemone{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    
+}

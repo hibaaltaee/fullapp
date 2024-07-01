@@ -1,0 +1,27 @@
+.container{
+    justify-content: center;
+    background-color: #9b9f92;
+    border-radius: 10px;
+ }
+ .container2{
+     margin-top: 50px;
+     display: flex;
+     justify-content: space-around;
+     padding: 20px;
+     background-color: #9b9f92;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 500;
+     border-radius: 10px;
+ }
+ 
+ .photos img{
+     width: 150px;
+     height: 150px;
+     margin-bottom: 20px;
+     border-radius: 10px;
+ }
+ img.mario{
+     margin-top: 50px;
+     
+ }
+    
